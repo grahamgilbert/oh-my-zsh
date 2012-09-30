@@ -26,3 +26,12 @@ plugins=(git vi-mode textmate brew github osx)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+pathdirs=(
+    /usr/local/bin
+    ~/bin
+)
+for dir in $pathdirs; do
+    if [ -d $dir ]; then
+        path+=$dir
+    fi
+done
