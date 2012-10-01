@@ -13,10 +13,10 @@ function vmfusionlist() {
 
 #PROMPT=$'%{$fg[green]%}┌(%!) [%{$fg_bold[white]%}%n@%m%{$reset_color%}%{$fg[green]%}] [%{$fg_bold[white]%} $(vmfusionlist)%{$reset_color%}%{$fg[green]%}] %{$(git_prompt_info)%}%(?,,%{$fg[green]%}[%{$fg_bold[white]%}%?%{$reset_color%}%{$fg[green]%}])
 
-PROMPT=$'%{$fg[green]%}[%{$fg_bold[white]%}%n@%m%{$reset_color%}%{$fg[green]%}] [%{$fg_bold[white]%} $(vmfusionlist)%{$reset_color%}%{$fg[green]%}] %{$(git_prompt_info)%}%(?,,%{$fg[green]%}[%{$fg_bold[white]%}%?%{$reset_color%}%{$fg[green]%}])
+PROMPT=$'%{$fg[magenta]%}[%{$fg_bold[white]%}%n@%m%{$reset_color%}%{$fg[magenta]%}] [%{$fg_bold[white]%} $(vmfusionlist)%{$reset_color%}%{$fg[magenta]%}] %{$(git_prompt_info)%}%(?,,%{$fg[magenta]%}[%{$fg_bold[white]%}%?%{$reset_color%}%{$fg[magenta]%}])
 %{$fg[green]%}└▷%{$reset_color%} '
 
-RPROMPT='[%{$fg[white]%}${PWD/#$HOME/~}%{$reset_color%}]'
+RPROMPT='%{$fg[magenta]%}[%{$fg[white]%}${PWD/#$HOME/~}%{$reset_color%}%{$fg[magenta]%}]%{$reset_color%}'
 PS2=$' %{$fg[green]%}|>%{$reset_color%} '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[green]%}[%{$fg_bold[white]%}"
