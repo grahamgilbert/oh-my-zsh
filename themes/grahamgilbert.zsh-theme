@@ -19,8 +19,8 @@ PROMPT=$'%{$fg[magenta]%}[%{$fg_bold[white]%}%n@%m%{$reset_color%}%{$fg[magenta]
 RPROMPT='%{$fg[magenta]%}[%{$fg[white]%}${PWD/#$HOME/~}%{$reset_color%}%{$fg[magenta]%}]%{$reset_color%}'
 PS2=$' %{$fg[green]%}|>%{$reset_color%} '
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[green]%}[%{$fg_bold[white]%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}%{$fg[green]%}] "
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[magenta]%}[%{$fg_bold[white]%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}%{$fg[magenta]%}] "
 ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg[green]%}⚡%{$reset_color%}"
 
 
