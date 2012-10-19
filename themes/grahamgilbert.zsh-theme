@@ -3,7 +3,7 @@
 alias vmrun='/Applications/VMware\ Fusion.app/Contents/Library/vmrun'
 
 function vmfusionlist() {
-  vmrun list | gawk 'BEGIN { ORS=" " ; FS="/" }  { if (NR>1) {print $NF} }'
+  vmrun list | awk 'BEGIN { ORS=" " ; FS="/" }  { if (NR>1) {print $NF} }'
 }
 
 # this is insane. Must get the load time of puppet --version faster.
