@@ -30,4 +30,6 @@ source $ZSH/oh-my-zsh.sh
 #export PYTHONPATH=/Users/grahamgilbert/Dropbox/Saved/Code/apps:$PYTHONPATH
 export PATH="/usr/local/munki:/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 alias rake="noglob rake"
-#echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function'[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
