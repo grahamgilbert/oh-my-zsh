@@ -25,6 +25,9 @@ plugins=(git vi-mode brew github osx)
 
 source $ZSH/oh-my-zsh.sh
 
+# Load up your ssh keys
+ssh-add ~/.ssh/ggmbpkey.pem > /dev/null 2>&1
+
 # Customize to your needs...
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 #export PYTHONPATH=/Users/grahamgilbert/Dropbox/Saved/Code/apps:$PYTHONPATH
