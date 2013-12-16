@@ -27,6 +27,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Load up your ssh keys
 ssh-add ~/.ssh/ggmbpkey.pem > /dev/null 2>&1
+ssh-add ~/.ssh/pebble.pem > /dev/null 2>&1
+
 
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
 
