@@ -43,7 +43,7 @@ alias rake="noglob rake"
 #eval "$(rbenv init -)"
 bindkey -e
 bindkey '^[[1;9C' forward-word
-bindkey '^[[1;9D' backward-word
+# bindkey '^[[1;9D' backward-word
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
 export ENVPUPPET_BASEDIR=/Users/grahamgilbert/src/Others
