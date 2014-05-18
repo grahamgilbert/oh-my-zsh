@@ -36,7 +36,7 @@ export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
 # Customize to your needs...
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 
-export PATH="/usr/local/munki:/usr/local/bin:/usr/local/sbin:$HOME/Dropbox/Config/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:/usr/local/munki:/usr/local/bin:/usr/local/sbin:$HOME/Dropbox/Config/bin:$PATH"
 alias rake="noglob rake"
 # alias puppet="envpuppet puppet"
 # alias facter="envpuppet facter"
