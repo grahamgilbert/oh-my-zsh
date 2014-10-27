@@ -30,8 +30,6 @@ ssh-add ~/.ssh/ggmbpkey.pem > /dev/null 2>&1
 ssh-add ~/.ssh/pebble.pem > /dev/null 2>&1
 ssh-add ~/.ssh/Moving_Brands_EC2.pem > /dev/null 2>&1
 
-# boot2docker bits
-$(boot2docker shellinit) > /dev/null 2>&1
 
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
 
