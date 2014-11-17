@@ -32,6 +32,7 @@ ssh-add ~/.ssh/Moving_Brands_EC2.pem > /dev/null 2>&1
 
 
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
+export VAGRANT_VMWARE_CLONE_DIRECTORY=/Users/grahamgilbert/vagrant_vms
 
 # Customize to your needs...
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
