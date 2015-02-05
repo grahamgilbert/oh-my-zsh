@@ -25,6 +25,9 @@ plugins=(git vi-mode brew github osx)
 
 source $ZSH/oh-my-zsh.sh
 
+# Useful file sizes in ls
+alias ls="ls -h"
+
 # Load up your ssh keys
 ssh-add ~/.ssh/ggmbpkey.pem > /dev/null 2>&1
 ssh-add ~/.ssh/pebble.pem > /dev/null 2>&1
