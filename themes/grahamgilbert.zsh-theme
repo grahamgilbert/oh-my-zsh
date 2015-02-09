@@ -14,7 +14,7 @@ function vmfusionlist() {
 #PROMPT=$'%{$fg[green]%}┌(%!) [%{$fg_bold[white]%}%n@%m%{$reset_color%}%{$fg[green]%}] [%{$fg_bold[white]%} $(vmfusionlist)%{$reset_color%}%{$fg[green]%}] %{$(git_prompt_info)%}%(?,,%{$fg[green]%}[%{$fg_bold[white]%}%?%{$reset_color%}%{$fg[green]%}])
 
 PROMPT=$'%{$FG[069]%}[%{$fg_bold[white]%}%n@%m%{$reset_color%}%{$FG[069]%}] [%{$fg_bold[white]%} $(vmfusionlist)%{$reset_color%}%{$FG[069]%}] %{$(git_prompt_info)%}%(?,,%{$FG[069]%}[%{$fg_bold[white]%}%?%{$reset_color%}%{$FG[069]%}])
-%{$fg[green]%}└▷%{$reset_color%} '
+%{$FG[069]%}└▷%{$reset_color%} '
 
 RPROMPT='%{$FG[069]%}[%{$fg[white]%}${PWD/#$HOME/~}%{$reset_color%}%{$FG[069]%}]%{$reset_color%}'
 PS2=$' %{$fg[green]%}|>%{$reset_color%} '
